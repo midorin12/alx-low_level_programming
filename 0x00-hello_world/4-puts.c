@@ -1,8 +1,8 @@
-#include<stdio.h>
-
+#include <stdio.h>
+/*
+*hello main function
+*/
 int main(void)
 {
-	char Mystr[] = "\"Programming is like building a multilingual puzzle";
-	puts(Mystr); /* print statment*/
-	return (0);
-}	
+puts("\"Programming is like building a multilingual puzzle");/*puts func*/
+
