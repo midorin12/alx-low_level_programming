@@ -5,9 +5,9 @@
 */
 int main(void)
 {
-int n = '1';
+int n = '0';
 
-for (n = '1'; n <= '9'; n++)
+for (n = '0'; n <= '9'; n++)
 putchar(n);
 putchar('\n');
 return (0);
