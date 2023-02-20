@@ -9,7 +9,7 @@ char c = 'a';
 
 for (c = 'a'; c <= 'z'; c++)
 {
-putchar("%d\n", c);
+putchar("%s\n", c);
 }
 return (0);
 }
