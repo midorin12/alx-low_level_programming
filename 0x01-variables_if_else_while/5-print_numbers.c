@@ -1,0 +1,17 @@
+#include <stdio.h>
+/**
+*main - enrty point
+*Return: 0 (Success)
+*/
+int main(void)
+{
+int n = 0;
+
+while (n < 10)
+{
+printf(n);
+n++
+}
+printf("\n");
+return (0);
+}
