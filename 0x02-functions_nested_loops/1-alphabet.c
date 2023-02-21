@@ -4,11 +4,6 @@
 *Return: 0 (Success)
 */
 void print_alphabet(void);
-int main(void)
-{
-print_alphabet();
-return (0);
-}
 /**
 *print_alphabet - entry point
 *Return: void (Success)
@@ -19,4 +14,10 @@ char c = 'a';
 
 for (c = 'a'; c <= 'z'; c++)
 putchar(c);
+}
+int main(void)
+{
+print_alphabet();
+putchar('\n');
+return (0);
 }
