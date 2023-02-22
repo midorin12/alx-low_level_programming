@@ -1,13 +1,7 @@
-#includ  "main.h"
-#include <stdio.h>
-/**
-*main - entry point
-*Return: 0 (Success)
-*/
-void print_alphabet(void);
+#include  "main.h"
 /**
 *print_alphabet - entry point
-*Return: void (Success)
+*Return: 0 (Success)
 */
 void print_alphabet(void)
 {
@@ -15,10 +9,6 @@ char c = 'a';
 
 for (c = 'a'; c <= 'z'; c++)
 putchar(c);
-}
-int main(void)
-{
-print_alphabet();
 putchar('\n');
 return (0);
 }
