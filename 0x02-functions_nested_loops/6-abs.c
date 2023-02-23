@@ -8,13 +8,11 @@
 int _abs(int n)
 {
 int a;
-char str;
 
 if (n < 0)
 {
-a = n * -1;
-str = printf("%d", a);
+a = printf("%d", n * -1);
+return (a);
 }
-return (str);
 }
 
