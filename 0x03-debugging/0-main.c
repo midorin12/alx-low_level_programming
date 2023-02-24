@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*main - entry point
+*main - checking ifthe func will return value 0 if case is 0
 *Return: 0 (Success)
 */
 int main(void)
