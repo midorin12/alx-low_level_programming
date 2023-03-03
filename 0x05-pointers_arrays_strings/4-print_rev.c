@@ -10,7 +10,8 @@ int len = strlen(s);
 
 while (len >= 0)
 {
-putchar(s[len]);
+printf("%c",s[len]);
 len--;
 }
+printf("\n");
 }
